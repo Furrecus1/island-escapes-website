@@ -1,0 +1,22 @@
+.cards{
+    .cards__item{
+        border: 1px solid $blue-color;
+        margin-top: 20px;
+        
+        .cards__copy{
+             padding: 10px;
+        }
+        .cards__btn{
+              width: 30%;
+              color: $black-color !important;
+              margin-bottom: 10px;
+             
+            &:hover{
+                 background-color: $green-color;
+            }
+        
+        } 
+        
+    }
+     
+}

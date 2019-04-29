@@ -1,0 +1,9 @@
+.links__item--text{
+     color: $black-color !important;
+    &:hover{
+        color: $blue-color !important;
+    }
+}
+.content{
+    margin-top: 20px;
+}

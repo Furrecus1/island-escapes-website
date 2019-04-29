@@ -1,0 +1,20 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: $font-open;
+}
+h1{ 
+    font-size: 36px;
+    @include font-size(3.6);
+}
+a{
+    color: $white-color !important;
+    &:hover{
+        color: $black-color !important;
+    }
+}
+img{
+    width: 100%
+}
+

@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,800");
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Open Sans;
+}
+
+h1 {
+  font-size: 36px;
+  font-size: 36px;
+  font-size: 3.6rem;
+}
+
+a {
+  color: #FFFFFF !important;
+}
+a:hover {
+  color: #000000 !important;
+}
+
+img {
+  width: 100%;
+}
+
+.navbar-default {
+  background-color: #00aeef;
+}
+
+footer {
+  background-color: #00aeef;
+  color: #FFFFFF;
+  margin-top: 20px;
+}
+
+.footer__item--text {
+  padding: 20px;
+}
+
+.links__item--text {
+  color: #000000 !important;
+}
+.links__item--text:hover {
+  color: #00aeef !important;
+}
+
+.content {
+  margin-top: 20px;
+}
+
+.cards .cards__item {
+  border: 1px solid #00aeef;
+  margin-top: 20px;
+}
+.cards .cards__item .cards__copy {
+  padding: 10px;
+}
+.cards .cards__item .cards__btn {
+  width: 30%;
+  color: #000000 !important;
+  margin-bottom: 10px;
+}
+.cards .cards__item .cards__btn:hover {
+  background-color: #07db61;
+}
+
+.contactform {
+  background-color: #00aeef;
+  padding: 20px;
+  margin-top: 20px;
+  height: 370px;
+}
+.contactform .contactform__input {
+  border: 3px solid #000000;
+}
+.contactform .contactform__label--green {
+  color: #07db61;
+}
+.contactform .contactform__submit {
+  background-color: #07db61;
+  color: #FFFFFF;
+}
+.contactform .contactform__submit:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+/*# sourceMappingURL=style.css.map */

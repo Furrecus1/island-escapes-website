@@ -1,0 +1,22 @@
+.contactform{
+    background-color: $blue-color;
+    padding: 20px;
+    margin-top: 20px;
+    height: 370px;
+    
+    .contactform__input{
+        border: 3px solid $black-color;
+    }
+    .contactform__label--green{
+        color: $green-color;
+    }
+    
+    .contactform__submit{
+        background-color: $green-color;
+        color: $white-color;
+        &:hover{
+            background-color: $white-color;
+            color: $black-color;
+        }
+    }
+}
